@@ -1,0 +1,73 @@
+.sidebar{
+    height: 630px;
+    padding-left: 30px;
+    padding-top: 5%;
+    background: rgb(221, 218, 235);
+}
+.img{
+    padding-left: 14%;
+
+}
+.profile{
+    height: 115px;
+    width: 115px;
+    border-radius: 10000px;
+}
+.details{
+    margin-top: 20px;
+   
+    
+}
+.name{
+    font-family: serif;
+    margin: 20px;
+    margin-right: 20px;
+}
+.about:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.pics:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.contact:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.about:active{
+    color: blue;
+    text-decoration: underline;
+}
+.about{
+    border: none;
+    background: rgb(221, 218, 235);
+    margin-left: 65px;
+}
+.pics{
+    border: none;
+    background: rgb(221, 218, 235);
+    margin-left: 65px;
+}
+.contact{
+    border: none;
+    background: rgb(221, 218, 235);
+    margin-left: 65px;
+    
+}
+.section{
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes zoomin {
+    0%{transform: scale(1,1);}
+    50%{transform: scale(1.5,1.5);}
+    100%{transform: scale(1,1);}
+}
+.instaId{
+    width: 20px;
+    height: 20px;
+}
